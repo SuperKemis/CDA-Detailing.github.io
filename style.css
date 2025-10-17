@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&display=swap');
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Advent Pro' , sans-serif;
     padding: 0;
@@ -234,4 +236,19 @@ button:hover{
 #icons a:hover{
     transform: scale(1.5);
     transition: 0.1s;
+
+}
+#copyrightEtIcons{
+    margin-top: 250px;
+    
+}
+.reservio-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: fit-content;
+  transform: scale(1.5);
+  transform-origin: center;
+
 }
